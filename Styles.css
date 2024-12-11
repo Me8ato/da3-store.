@@ -1,14 +1,84 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #f0f8ff; /* خلفية سماوية */
     color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6347; /* لون أحمر */
+    color: white;
+    padding: 20px;
     text-align: center;
 }
-header {
-    background-color: #ff6347;
-    padding: 1rem;
-    color: white;
+
+h1, h2, h3 {
+    margin: 10px 0;
 }
-main {
-    padding: 2rem;
+
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+#products {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 30%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+#contact {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
